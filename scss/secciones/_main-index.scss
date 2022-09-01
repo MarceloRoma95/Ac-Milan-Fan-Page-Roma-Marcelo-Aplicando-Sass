@@ -1,0 +1,18 @@
+.main-index{
+    background-color: grey;
+    text-align: center;
+    min-height: 50vh;
+    .card{
+        max-width: 320px;
+        margin: 0 auto;
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight:bold;
+           font-size: 150%;
+            &:hover{
+                color: blue;
+                background-color: red;
+            }
+        }
+    }
+}
