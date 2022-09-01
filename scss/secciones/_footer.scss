@@ -1,13 +1,26 @@
 footer{
-    form{
-        input{
-            padding: 9px;
-            &:focus{
-                background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, red, grey);
+    height: 20vh;
+    padding: 10px;
+    align-items: center;
+    border-radius: 6px;
+    margin: auto;
+        a{
+            border: 3px solid rgb(12, 142, 255);
+            padding: 6px;
+            list-style: none;
+            color: rgb(4, 4, 3);
+            border-radius: 4px;
+            font-family: 'Times New Roman', Times, serif;
+            &:hover{
+                background-color: rgb(84, 59, 197);
+                transition: 0.5s;
             }
-            &::placeholder{
-                color: black;
+            &::a{
+                color: rgb(243, 255, 5);
             }
         }
     }
-}

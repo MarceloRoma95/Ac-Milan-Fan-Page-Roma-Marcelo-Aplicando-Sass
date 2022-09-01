@@ -4,8 +4,8 @@
   box-sizing: border-box; }
 
 header {
-  background-color: aqua;
-  height: 21vh; }
+  background-color: #15158f;
+  height: 29vh; }
   header li {
     list-style: none;
     text-align: center; }
@@ -25,9 +25,25 @@ header {
         color: blue;
         background-color: red; }
 
-footer form input {
-  padding: 9px; }
-  footer form input:focus {
-    background-color: blue; }
-  footer form input::placeholder {
-    color: black; }
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to left, red, grey);
+  height: 20vh;
+  padding: 10px;
+  align-items: center;
+  border-radius: 6px;
+  margin: auto; }
+  footer a {
+    border: 3px solid #0c8eff;
+    padding: 6px;
+    list-style: none;
+    color: #040403;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif; }
+    footer a:hover {
+      background-color: #543bc5;
+      transition: 0.5s; }
+    footer a::a {
+      color: #f3ff05; }
